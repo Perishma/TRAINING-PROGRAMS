@@ -1,0 +1,17 @@
+'''n=int(input("Enter a number"))
+if(n>0):
+    print("Positive num",n)
+elif(n<0):
+    print("Negative num",n)
+else:
+    print("Equal to 0",n)'''
+    
+def num(n):
+    if(n>0):
+         print("Positive num",n)
+    elif(n<0):
+        print("Negative num",n)
+    else:
+        print("Equal to 0",n)
+n=int(input("Enter a number"))
+print("Number",n)
